@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import MapKit
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
@@ -14,6 +15,8 @@ struct ContentView: View {
 
     var body: some View {
         NavigationSplitView {
+            Map()
+            /*
             List {
                 ForEach(items) { item in
                     NavigationLink {
@@ -24,6 +27,7 @@ struct ContentView: View {
                 }
                 .onDelete(perform: deleteItems)
             }
+            */
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()

@@ -187,11 +187,12 @@
 				};
 			};
 			buildConfigurationList = 04A2EE3E3077DEBB002DA059 /* Build configuration list for PBXProject "shinshu-fesnav" */;
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 04A2EE3A3077DEBB002DA059;
 			minimizedProjectReferenceProxies = 1;

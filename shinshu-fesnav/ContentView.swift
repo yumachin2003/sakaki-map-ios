@@ -23,7 +23,11 @@ struct ContentView: View {
 
     var body: some View {
         NavigationSplitView {
-            Map {
+            Map(
+                initialPosition: .camera(
+                    MapCamera(centerCoordinate: .nagano_univ, distance: 500000)
+                )
+            ) {
                 Marker(
                     "Nagano University",
                     systemImage: "graduationcap.fill",

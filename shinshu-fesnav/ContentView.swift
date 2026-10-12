@@ -9,25 +9,27 @@ import SwiftUI
 import SwiftData
 import MapKit
 
+extension CLLocationCoordinate2D {
+    static let nagano_univ = CLLocationCoordinate2D(
+        latitude: 36.36915007647547,
+        longitude: 138.22364515597747
+    )
+    
+}
+
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 
     var body: some View {
         NavigationSplitView {
-            Map()
-            /*
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
+            Map {
+                Marker(
+                    "Nagano University",
+                    systemImage: "graduationcap.fill",
+                    coordinate: .nagano_univ
+                )
             }
-            */
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()

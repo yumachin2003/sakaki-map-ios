@@ -29,9 +29,22 @@
 		04A2EE5C3077DEBF002DA059 /* shinshu-fesnavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shinshu-fesnavUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04FB8069307C9ADA00E0975F /* Exceptions for "shinshu-fesnav" folder in "shinshu-fesnav" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04A2EE423077DEBB002DA059 /* shinshu-fesnav */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		04A2EE453077DEBB002DA059 /* shinshu-fesnav */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04FB8069307C9ADA00E0975F /* Exceptions for "shinshu-fesnav" folder in "shinshu-fesnav" target */,
+			);
 			path = "shinshu-fesnav";
 			sourceTree = "<group>";
 		};
@@ -401,6 +414,7 @@
 				DEVELOPMENT_TEAM = AUTBYBVGK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "shinshu-fesnav/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -433,6 +447,7 @@
 				DEVELOPMENT_TEAM = AUTBYBVGK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "shinshu-fesnav/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

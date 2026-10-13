@@ -14,12 +14,12 @@ extension CLLocationCoordinate2D {
         latitude: 36.36915007647547,
         longitude: 138.22364515597747
     )
-    
 }
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+    @StateObject private var locationManager = LocationManager()
 
     var body: some View {
         NavigationSplitView {
@@ -33,6 +33,10 @@ struct ContentView: View {
                     systemImage: "graduationcap.fill",
                     coordinate: .nagano_univ
                 )
+                UserAnnotation()
+            }
+            .mapControls {
+                MapUserLocationButton()
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {

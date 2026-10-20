@@ -8,5 +8,25 @@
 	<array>
 		<dict/>
 	</array>
+	<!-- ===== ⚠️ 一時回避：sekilab.org のTLS構成がATS要件を満たさないための暫定例外 ===== -->
+	<!-- サーバーのTLS/証明書が正常化したら、この NSAppTransportSecurity ブロックごと削除する -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>sekilab.org</key>
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
+		</dict>
+	</dict>
+	<!-- ===== ⚠️ 一時回避ここまで ===== -->
 </dict>
 </plist>

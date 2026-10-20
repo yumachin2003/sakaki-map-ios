@@ -9,13 +9,6 @@ import SwiftUI
 import SwiftData
 import MapKit
 
-extension CLLocationCoordinate2D {
-    static let nagano_univ = CLLocationCoordinate2D(
-        latitude: 36.36915007647547,
-        longitude: 138.22364515597747
-    )
-}
-
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
@@ -23,31 +16,17 @@ struct ContentView: View {
 
     var body: some View {
         NavigationSplitView {
-            Map(
-                initialPosition: .camera(
-                    MapCamera(centerCoordinate: .nagano_univ, distance: 500000)
-                )
-            ) {
-                Marker(
-                    "Nagano University",
-                    systemImage: "graduationcap.fill",
-                    coordinate: .nagano_univ
-                )
-                UserAnnotation()
-            }
-            .mapControls {
-                MapUserLocationButton()
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+            FestivalMapView()
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        EditButton()
+                    }
+                    ToolbarItem {
+                        Button(action: addItem) {
+                            Label("Add Item", systemImage: "plus")
+                        }
                     }
                 }
-            }
         } detail: {
             Text("Select an item")
         }

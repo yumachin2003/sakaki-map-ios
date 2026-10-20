@@ -1,13 +1,13 @@
 //
-//  shinshu_fesnavUITests.swift
-//  shinshu-fesnavUITests
+//  sakaki_map_iosUITests.swift
+//  sakaki-map-iosUITests
 //
 //  Created by Yuma on 2026/10/08.
 //
 
 import XCTest
 
-final class shinshu_fesnavUITests: XCTestCase {
+final class sakaki_map_iosUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

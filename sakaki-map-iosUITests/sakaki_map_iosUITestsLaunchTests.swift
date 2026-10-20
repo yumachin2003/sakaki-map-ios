@@ -1,13 +1,13 @@
 //
-//  shinshu_fesnavUITestsLaunchTests.swift
-//  shinshu-fesnavUITests
+//  sakaki_map_iosUITestsLaunchTests.swift
+//  sakaki-map-iosUITests
 //
 //  Created by Yuma on 2026/10/08.
 //
 
 import XCTest
 
-final class shinshu_fesnavUITestsLaunchTests: XCTestCase {
+final class sakaki_map_iosUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

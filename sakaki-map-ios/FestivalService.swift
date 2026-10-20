@@ -1,6 +1,6 @@
 //
 //  FestivalService.swift
-//  shinshu-fesnav
+//  sakaki-map-ios
 //
 //  Created by Yuma on 2026/10/19.
 //

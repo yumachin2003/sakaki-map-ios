@@ -12,50 +12,50 @@
 			containerPortal = 04A2EE3B3077DEBB002DA059 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 04A2EE423077DEBB002DA059;
-			remoteInfo = "shinshu-fesnav";
+			remoteInfo = "sakaki-map-ios";
 		};
 		04A2EE5D3077DEBF002DA059 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04A2EE3B3077DEBB002DA059 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 04A2EE423077DEBB002DA059;
-			remoteInfo = "shinshu-fesnav";
+			remoteInfo = "sakaki-map-ios";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A2EE433077DEBB002DA059 /* shinshu-fesnav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shinshu-fesnav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A2EE523077DEBF002DA059 /* shinshu-fesnavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shinshu-fesnavTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A2EE5C3077DEBF002DA059 /* shinshu-fesnavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shinshu-fesnavUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A2EE433077DEBB002DA059 /* sakaki-map-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sakaki-map-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A2EE523077DEBF002DA059 /* sakaki-map-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sakaki-map-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A2EE5C3077DEBF002DA059 /* sakaki-map-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sakaki-map-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		04FB8069307C9ADA00E0975F /* Exceptions for "shinshu-fesnav" folder in "shinshu-fesnav" target */ = {
+		04FB8069307C9ADA00E0975F /* Exceptions for "sakaki-map-ios" folder in "sakaki-map-ios" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 04A2EE423077DEBB002DA059 /* shinshu-fesnav */;
+			target = 04A2EE423077DEBB002DA059 /* sakaki-map-ios */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		04A2EE453077DEBB002DA059 /* shinshu-fesnav */ = {
+		04A2EE453077DEBB002DA059 /* sakaki-map-ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				04FB8069307C9ADA00E0975F /* Exceptions for "shinshu-fesnav" folder in "shinshu-fesnav" target */,
+				04FB8069307C9ADA00E0975F /* Exceptions for "sakaki-map-ios" folder in "sakaki-map-ios" target */,
 			);
-			path = "shinshu-fesnav";
+			path = "sakaki-map-ios";
 			sourceTree = "<group>";
 		};
-		04A2EE553077DEBF002DA059 /* shinshu-fesnavTests */ = {
+		04A2EE553077DEBF002DA059 /* sakaki-map-iosTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "shinshu-fesnavTests";
+			path = "sakaki-map-iosTests";
 			sourceTree = "<group>";
 		};
-		04A2EE5F3077DEBF002DA059 /* shinshu-fesnavUITests */ = {
+		04A2EE5F3077DEBF002DA059 /* sakaki-map-iosUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "shinshu-fesnavUITests";
+			path = "sakaki-map-iosUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +88,9 @@
 		04A2EE3A3077DEBB002DA059 = {
 			isa = PBXGroup;
 			children = (
-				04A2EE453077DEBB002DA059 /* shinshu-fesnav */,
-				04A2EE553077DEBF002DA059 /* shinshu-fesnavTests */,
-				04A2EE5F3077DEBF002DA059 /* shinshu-fesnavUITests */,
+				04A2EE453077DEBB002DA059 /* sakaki-map-ios */,
+				04A2EE553077DEBF002DA059 /* sakaki-map-iosTests */,
+				04A2EE5F3077DEBF002DA059 /* sakaki-map-iosUITests */,
 				04A2EE443077DEBB002DA059 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		04A2EE443077DEBB002DA059 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04A2EE433077DEBB002DA059 /* shinshu-fesnav.app */,
-				04A2EE523077DEBF002DA059 /* shinshu-fesnavTests.xctest */,
-				04A2EE5C3077DEBF002DA059 /* shinshu-fesnavUITests.xctest */,
+				04A2EE433077DEBB002DA059 /* sakaki-map-ios.app */,
+				04A2EE523077DEBF002DA059 /* sakaki-map-iosTests.xctest */,
+				04A2EE5C3077DEBF002DA059 /* sakaki-map-iosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04A2EE423077DEBB002DA059 /* shinshu-fesnav */ = {
+		04A2EE423077DEBB002DA059 /* sakaki-map-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04A2EE663077DEBF002DA059 /* Build configuration list for PBXNativeTarget "shinshu-fesnav" */;
+			buildConfigurationList = 04A2EE663077DEBF002DA059 /* Build configuration list for PBXNativeTarget "sakaki-map-ios" */;
 			buildPhases = (
 				04A2EE3F3077DEBB002DA059 /* Sources */,
 				04A2EE403077DEBB002DA059 /* Frameworks */,
@@ -121,18 +121,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				04A2EE453077DEBB002DA059 /* shinshu-fesnav */,
+				04A2EE453077DEBB002DA059 /* sakaki-map-ios */,
 			);
-			name = "shinshu-fesnav";
+			name = "sakaki-map-ios";
 			packageProductDependencies = (
 			);
-			productName = "shinshu-fesnav";
-			productReference = 04A2EE433077DEBB002DA059 /* shinshu-fesnav.app */;
+			productName = "sakaki-map-ios";
+			productReference = 04A2EE433077DEBB002DA059 /* sakaki-map-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04A2EE513077DEBF002DA059 /* shinshu-fesnavTests */ = {
+		04A2EE513077DEBF002DA059 /* sakaki-map-iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04A2EE693077DEBF002DA059 /* Build configuration list for PBXNativeTarget "shinshu-fesnavTests" */;
+			buildConfigurationList = 04A2EE693077DEBF002DA059 /* Build configuration list for PBXNativeTarget "sakaki-map-iosTests" */;
 			buildPhases = (
 				04A2EE4E3077DEBF002DA059 /* Sources */,
 				04A2EE4F3077DEBF002DA059 /* Frameworks */,
@@ -144,18 +144,18 @@
 				04A2EE543077DEBF002DA059 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				04A2EE553077DEBF002DA059 /* shinshu-fesnavTests */,
+				04A2EE553077DEBF002DA059 /* sakaki-map-iosTests */,
 			);
-			name = "shinshu-fesnavTests";
+			name = "sakaki-map-iosTests";
 			packageProductDependencies = (
 			);
-			productName = "shinshu-fesnavTests";
-			productReference = 04A2EE523077DEBF002DA059 /* shinshu-fesnavTests.xctest */;
+			productName = "sakaki-map-iosTests";
+			productReference = 04A2EE523077DEBF002DA059 /* sakaki-map-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		04A2EE5B3077DEBF002DA059 /* shinshu-fesnavUITests */ = {
+		04A2EE5B3077DEBF002DA059 /* sakaki-map-iosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04A2EE6C3077DEBF002DA059 /* Build configuration list for PBXNativeTarget "shinshu-fesnavUITests" */;
+			buildConfigurationList = 04A2EE6C3077DEBF002DA059 /* Build configuration list for PBXNativeTarget "sakaki-map-iosUITests" */;
 			buildPhases = (
 				04A2EE583077DEBF002DA059 /* Sources */,
 				04A2EE593077DEBF002DA059 /* Frameworks */,
@@ -167,13 +167,13 @@
 				04A2EE5E3077DEBF002DA059 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				04A2EE5F3077DEBF002DA059 /* shinshu-fesnavUITests */,
+				04A2EE5F3077DEBF002DA059 /* sakaki-map-iosUITests */,
 			);
-			name = "shinshu-fesnavUITests";
+			name = "sakaki-map-iosUITests";
 			packageProductDependencies = (
 			);
-			productName = "shinshu-fesnavUITests";
-			productReference = 04A2EE5C3077DEBF002DA059 /* shinshu-fesnavUITests.xctest */;
+			productName = "sakaki-map-iosUITests";
+			productReference = 04A2EE5C3077DEBF002DA059 /* sakaki-map-iosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04A2EE3E3077DEBB002DA059 /* Build configuration list for PBXProject "shinshu-fesnav" */;
+			buildConfigurationList = 04A2EE3E3077DEBB002DA059 /* Build configuration list for PBXProject "sakaki-map-ios" */;
 			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -214,9 +214,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04A2EE423077DEBB002DA059 /* shinshu-fesnav */,
-				04A2EE513077DEBF002DA059 /* shinshu-fesnavTests */,
-				04A2EE5B3077DEBF002DA059 /* shinshu-fesnavUITests */,
+				04A2EE423077DEBB002DA059 /* sakaki-map-ios */,
+				04A2EE513077DEBF002DA059 /* sakaki-map-iosTests */,
+				04A2EE5B3077DEBF002DA059 /* sakaki-map-iosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,12 +272,12 @@
 /* Begin PBXTargetDependency section */
 		04A2EE543077DEBF002DA059 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04A2EE423077DEBB002DA059 /* shinshu-fesnav */;
+			target = 04A2EE423077DEBB002DA059 /* sakaki-map-ios */;
 			targetProxy = 04A2EE533077DEBF002DA059 /* PBXContainerItemProxy */;
 		};
 		04A2EE5E3077DEBF002DA059 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04A2EE423077DEBB002DA059 /* shinshu-fesnav */;
+			target = 04A2EE423077DEBB002DA059 /* sakaki-map-ios */;
 			targetProxy = 04A2EE5D3077DEBF002DA059 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -414,7 +414,7 @@
 				DEVELOPMENT_TEAM = AUTBYBVGK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "shinshu-fesnav/Info.plist";
+				INFOPLIST_FILE = "sakaki-map-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -425,7 +425,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.shinshu-fesnav";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.sakaki-map-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -447,7 +447,7 @@
 				DEVELOPMENT_TEAM = AUTBYBVGK9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "shinshu-fesnav/Info.plist";
+				INFOPLIST_FILE = "sakaki-map-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.shinshu-fesnav";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.sakaki-map-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -480,7 +480,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.shinshu-fesnavTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.sakaki-map-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -488,7 +488,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shinshu-fesnav.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shinshu-fesnav";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sakaki-map-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sakaki-map-ios";
 			};
 			name = Debug;
 		};
@@ -502,7 +502,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.shinshu-fesnavTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.sakaki-map-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -510,7 +510,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shinshu-fesnav.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shinshu-fesnav";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sakaki-map-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sakaki-map-ios";
 			};
 			name = Release;
 		};
@@ -522,7 +522,7 @@
 				DEVELOPMENT_TEAM = AUTBYBVGK9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.shinshu-fesnavUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.sakaki-map-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -530,7 +530,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "shinshu-fesnav";
+				TEST_TARGET_NAME = "sakaki-map-ios";
 			};
 			name = Debug;
 		};
@@ -542,7 +542,7 @@
 				DEVELOPMENT_TEAM = AUTBYBVGK9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.shinshu-fesnavUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.sakaki-map-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -550,14 +550,14 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "shinshu-fesnav";
+				TEST_TARGET_NAME = "sakaki-map-ios";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04A2EE3E3077DEBB002DA059 /* Build configuration list for PBXProject "shinshu-fesnav" */ = {
+		04A2EE3E3077DEBB002DA059 /* Build configuration list for PBXProject "sakaki-map-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04A2EE643077DEBF002DA059 /* Debug */,
@@ -566,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04A2EE663077DEBF002DA059 /* Build configuration list for PBXNativeTarget "shinshu-fesnav" */ = {
+		04A2EE663077DEBF002DA059 /* Build configuration list for PBXNativeTarget "sakaki-map-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04A2EE673077DEBF002DA059 /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04A2EE693077DEBF002DA059 /* Build configuration list for PBXNativeTarget "shinshu-fesnavTests" */ = {
+		04A2EE693077DEBF002DA059 /* Build configuration list for PBXNativeTarget "sakaki-map-iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04A2EE6A3077DEBF002DA059 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04A2EE6C3077DEBF002DA059 /* Build configuration list for PBXNativeTarget "shinshu-fesnavUITests" */ = {
+		04A2EE6C3077DEBF002DA059 /* Build configuration list for PBXNativeTarget "sakaki-map-iosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04A2EE6D3077DEBF002DA059 /* Debug */,

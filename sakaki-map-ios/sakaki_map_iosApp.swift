@@ -1,6 +1,6 @@
 //
-//  shinshu_fesnavApp.swift
-//  shinshu-fesnav
+//  sakaki_map_iosApp.swift
+//  sakaki-map-ios
 //
 //  Created by Yuma on 2026/10/08.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct shinshu_fesnavApp: App {
+struct sakaki_map_iosApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,

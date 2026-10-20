@@ -16,7 +16,7 @@ struct ContentView: View {
 
     var body: some View {
         NavigationSplitView {
-            FestivalMapView()
+            MemoryMapView()
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         EditButton()

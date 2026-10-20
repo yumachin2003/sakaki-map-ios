@@ -1,5 +1,5 @@
 //
-//  FestivalMapView.swift
+//  MemoryMapView.swift
 //  sakaki-map-ios
 //
 //  Created by Yuma on 2026/10/19.
@@ -15,9 +15,9 @@ extension CLLocationCoordinate2D {
     )
 }
 
-/// 祭りのピンを表示する地図ビュー
-struct FestivalMapView: View {
-    @State private var festivals: [Festival] = []
+/// 思い出のピンを表示する地図ビュー
+struct MemoryMapView: View {
+    @State private var memories: [Memory] = []
 
     var body: some View {
         Map(
@@ -30,9 +30,9 @@ struct FestivalMapView: View {
                 systemImage: "graduationcap.fill",
                 coordinate: .nagano_univ
             )
-            // APIから取得した祭りの座標にピンを立てる
-            ForEach(festivals) { festival in
-                Marker(festival.name, coordinate: festival.coordinate)
+            // APIから取得した思い出の座標にピンを立てる
+            ForEach(memories) { memory in
+                Marker(memory.name, coordinate: memory.coordinate)
             }
             UserAnnotation()
         }
@@ -41,7 +41,7 @@ struct FestivalMapView: View {
         }
         .task {
             do {
-                festivals = try await FestivalService.fetchFestivals()
+                memories = try await MemoryService.fetchMemories()
             } catch {
                 print("データの取得に失敗しました: \(error)")
             }

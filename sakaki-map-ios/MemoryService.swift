@@ -1,5 +1,5 @@
 //
-//  FestivalService.swift
+//  MemoryService.swift
 //  sakaki-map-ios
 //
 //  Created by Yuma on 2026/10/19.
@@ -7,18 +7,18 @@
 
 import Foundation
 
-/// 祭りデータの取得を担当するサービス
-enum FestivalService {
+/// 思い出データの取得を担当するサービス
+enum MemoryService {
     private static let endpoint = "https://shinshu-fesnav.sekilab.org/api/festivals"
 
-    /// APIから祭りデータを取得して返す
-    static func fetchFestivals() async throws -> [Festival] {
+    /// APIから思い出データを取得して返す
+    static func fetchMemories() async throws -> [Memory] {
         guard let url = URL(string: endpoint) else { return [] }
 
         // 【一時回避】サーバーの証明書が期限切れのため、検証をバイパスするセッションを使用
         let (data, _) = try await InsecureURLSession.shared.data(from: url)
 
-        return try JSONDecoder().decode([Festival].self, from: data)
+        return try JSONDecoder().decode([Memory].self, from: data)
     }
 }
 
@@ -26,7 +26,7 @@ enum FestivalService {
 // ⚠️ 一時回避コード：サーバーの証明書が期限切れのための暫定対応
 // ----------------------------------------------------------------------------
 // サーバー側の証明書が更新されたら、このブロックごと丸ごと削除し、
-// fetchFestivals() 内の `InsecureURLSession.shared` を `URLSession.shared` に戻す。
+// fetchMemories() 内の `InsecureURLSession.shared` を `URLSession.shared` に戻す。
 // （本番運用では証明書検証を無効化したままにしないこと）
 // ============================================================================
 /// 証明書検証をスキップする URLSession（開発用）

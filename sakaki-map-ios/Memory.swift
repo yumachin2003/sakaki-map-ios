@@ -1,5 +1,5 @@
 //
-//  Festival.swift
+//  Memory.swift
 //  sakaki-map-ios
 //
 //  Created by Yuma on 2026/10/19.
@@ -8,8 +8,8 @@
 import Foundation
 import MapKit
 
-/// APIから取得する祭りデータ（必要な項目のみ）
-struct Festival: Decodable, Identifiable {
+/// APIから取得する思い出データ（必要な項目のみ）
+struct Memory: Decodable, Identifiable {
     let id: Int
     let name: String
     let latitude: Double

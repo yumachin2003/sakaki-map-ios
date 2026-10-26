@@ -1,15 +1,28 @@
 //
-//  MemoryService.swift
+//  APIService.swift
 //  sakaki-map-ios
 //
 //  Created by Yuma on 2026/10/19.
 //
 
 import Foundation
+import MapKit
+
+/// APIから取得する思い出データ（必要な項目のみ）
+struct Memory: Decodable, Identifiable {
+    let id: Int
+    let name: String
+    let latitude: Double
+    let longitude: Double
+
+    var coordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
+}
 
 /// 思い出データの取得を担当するサービス
 enum MemoryService {
-    private static let endpoint = "https://shinshu-fesnav.sekilab.org/api/festivals"
+    private static let endpoint = "https://www.sekilab.org/sakaki-map/api/memories"
 
     /// APIから思い出データを取得して返す
     static func fetchMemories() async throws -> [Memory] {
@@ -28,8 +41,7 @@ enum MemoryService {
 // サーバー側の証明書が更新されたら、このブロックごと丸ごと削除し、
 // fetchMemories() 内の `InsecureURLSession.shared` を `URLSession.shared` に戻す。
 // （本番運用では証明書検証を無効化したままにしないこと）
-// ============================================================================
-/// 証明書検証をスキップする URLSession（開発用）
+// ----------------------------------------------------------------------------
 enum InsecureURLSession {
     static let shared: URLSession = {
         URLSession(
@@ -55,6 +67,7 @@ private final class InsecureSessionDelegate: NSObject, URLSessionDelegate {
         completionHandler(.useCredential, URLCredential(trust: serverTrust))
     }
 }
-// ============================================================================
+// ----------------------------------------------------------------------------
 // ⚠️ 一時回避コードここまで
 // ============================================================================
+

@@ -56,3 +56,4 @@ fastlane/test_output
 
 # Products (build artifacts)
 Products/
+sakaki-map-ios.xcodeproj/xcshareddata/

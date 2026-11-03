@@ -12,6 +12,8 @@ import MapKit
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
   let manager = CLLocationManager()
   @Published var region = MKCoordinateRegion()
+  /// 最新の現在地（未取得の場合は nil）
+  @Published var userCoordinate: CLLocationCoordinate2D?
   
   override init() {
     super.init()
@@ -27,7 +29,8 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
       let center = CLLocationCoordinate2D(
         latitude: $0.coordinate.latitude, longitude: $0.coordinate.longitude
       )
-      
+
+      userCoordinate = center
       region = MKCoordinateRegion(
         center: center,
         latitudinalMeters: 100.0,

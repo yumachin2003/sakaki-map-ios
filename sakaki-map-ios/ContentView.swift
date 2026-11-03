@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-/// === アプリのメイン画面 ===
+// === アプリのメイン画面 ===
 struct ContentView: View {
     @StateObject private var locationManager = LocationManager()
 
